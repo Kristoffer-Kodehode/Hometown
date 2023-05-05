@@ -33,7 +33,7 @@ body {
 
 #hero {
   margin: 0px;
-  background-image: url(/images/visitbergen.jpg);
+  background-image: url(images/visitbergen.jpg);
   background-size: cover;
   height: 500px;
   font-family: "Cinzel", serif;
