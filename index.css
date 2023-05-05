@@ -1,0 +1,157 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border: 4px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #c33032;
+}
+
+#nav {
+  display: flex;
+  background-color: #c33032;
+  height: 53px;
+  justify-content: space-around;
+  border-radius: 13px;
+}
+
+.nav-btn {
+  display: block;
+  background-color: #ae8d40;
+  height: 43px;
+  width: 100px;
+  margin: 5px;
+  border: solid #222222 2px;
+  border-radius: 13px;
+  font-weight: bold;
+}
+
+#hero {
+  margin: 0px;
+  background-image: url(/images/visitbergen.jpg);
+  background-size: cover;
+  height: 500px;
+  font-family: "Cinzel", serif;
+  border-radius: 13px;
+}
+
+.hero-txt {
+  display: block;
+  margin: 50px auto;
+  padding: 3px 7px;
+  background: whitesmoke;
+  color: #222222;
+  border-radius: 13px;
+  width: fit-content;
+  border-bottom: solid #c33032 3px;
+  border-right: solid #ae8d40 3px;
+}
+
+.activities {
+  display: block;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.see {
+  text-align: center;
+  color: #222222;
+  background-color: #c33032;
+  border-radius: 13px;
+}
+
+.activity-wrapper {
+  display: flex;
+  height: fit-content;
+  padding: 10px;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #ae8d40;
+  border-radius: 13px;
+}
+
+.activity-txt {
+  font-weight: bold;
+}
+
+.smallr {
+  font-size: smaller;
+  font-style: oblique;
+  padding: 20px;
+}
+
+.smallst {
+  font-size: x-small;
+  font-style: italic;
+}
+
+#foot {
+  display: flex;
+  justify-content: space-around;
+}
+
+.guide {
+  display: flex;
+  justify-content: start;
+  margin: 20px auto 5px 60px;
+  padding: 10px 10px;
+  width: 400px;
+  height: 200px;
+  background-color: #ae8d40;
+  border-left: 1px solid #222222;
+  border-top: 1px solid #222222;
+  border-bottom: 4px solid #c33032;
+  border-right: 4px solid #c33032;
+  border-radius: 13px;
+}
+
+.guide-cont {
+  display: block;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+#mail-wrapper {
+  display: block;
+  margin: 115px auto;
+}
+
+#happenings {
+  background-color: #ae8d40;
+  border-left: 1px solid #222222;
+  border-top: 1px solid #222222;
+  border-bottom: 4px solid #c33032;
+  border-right: 4px solid #c33032;
+  border-radius: 13px;
+  padding: 5px;
+}
+
+#mail {
+  width: 400px;
+  margin: 0px auto 20px;
+  line-height: 15px;
+  padding: 10px 30px;
+  background-color: #ae8d40;
+  border: 2px solid #c33032;
+  border-radius: 13px;
+  color: #222222;
+}
+
+.btn {
+  height: 40px;
+  background-color: #ae8d40;
+  border: 2px solid #c33032;
+  border-radius: 13px;
+  color: #222222;
+}
+
+#crest {
+  width: 250px;
+  height: 290px;
+  margin-right: 30px;
+}
